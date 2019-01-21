@@ -1,0 +1,30 @@
+{
+  "name": "boids",
+  "description": "JavaScript implementation of the boids algorithm ",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "debounce": "0.0.2",
+    "fps": "0.0.3",
+    "html-webpack-plugin": "^2.30.1",
+    "inherits": "~1.0.0",
+    "mocha": "^2.2.1",
+    "prettier": "^1.9.2",
+    "ticker": "0.0.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jshint": "^2.9.5",
+    "simpleheat": "^0.4.0"
+  }
+}
